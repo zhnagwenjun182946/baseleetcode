@@ -51,6 +51,7 @@ public class PalindromePartitioning {
                 backtrack(s, i + 1, path);
                 //递归完毕后，记得将此串从path中删除，这是回溯算法的关键步骤
                 path.remove(path.size() - 1);
+
             }
         }
 
